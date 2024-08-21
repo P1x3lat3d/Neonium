@@ -1,0 +1,43 @@
+type: ItemTurret
+targetAir: true
+targetGround: true
+health: 1500
+size: 3
+range: 120
+recoil: 2
+ammoUseEffect: casing3
+shootEffect: hitLancer
+shootSound: shoot
+shootCone: 25
+rotateSpeed: 3.8
+maxAmmo: 24
+ammoPerShot: 1
+ammoTypes: {
+  silicon: {
+    height: 8
+    width: 6
+    damage: 35
+    speed: 3
+    ammoMultiplier: 2
+    pierceDamageFactor: 0.25
+  }
+  neonium: {
+    height: 12
+    width: 8
+    damage: 50
+    status: corroded
+    speed: 4
+    ammoMultiplier: 3
+    pierceDamageFactor: 0.25
+  }
+}
+requirements: [
+  neonium/150
+  titanium/50
+]
+category: turret
+name: Neoturret
+shootY: 7
+research: fuse
+researchCostMultiplier: 0.03
+

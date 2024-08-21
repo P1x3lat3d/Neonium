@@ -1,0 +1,12 @@
+{
+"name": "Neonium Wall",
+"description": "-",
+"type": "Wall",
+"health": 490,
+"size": 1,
+"requirements": [
+{"item": "neonium", "amount": 10}
+],
+"category": "defense",
+"research": "titanium-wall"
+}

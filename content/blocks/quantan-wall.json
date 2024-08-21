@@ -1,0 +1,12 @@
+{
+"name": "Quantan Wall",
+"description": "-",
+"type": "Wall",
+"health": 560,
+"size": 1,
+"requirements": [
+{"item": "quantan", "amount": 10}
+],
+"category": "defense",
+"research": "large-neonium-wall"
+}

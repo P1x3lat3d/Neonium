@@ -1,0 +1,12 @@
+{
+"name": "Large Quantan Wall",
+"description": "-",
+"type": "Wall",
+"health": 2000,
+"size": 2,
+"requirements": [
+{"item": "quantan", "amount": 25}
+],
+"category": "defense",
+"research": "quantan-wall"
+}

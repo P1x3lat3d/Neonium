@@ -1,0 +1,56 @@
+type: GenericCrafter
+name : Quantan Furnace
+craftTime: 60
+size: 3
+separateItemCapacity : true
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      neonium/4
+      surge-alloy/5
+    ]
+  }
+}
+itemCapacity: 20
+outputItem: quantan/1
+updateEffect: {
+  type: ParticleEffect
+  length: 6
+  particles: 5
+  lifetime: 35
+  colorFrom: E1FF00
+  colorTo: FAF867
+  sizeFrom: 0.75
+}
+category:crafting
+requirements:[
+  lead/120
+  neonium/40
+]
+craftEffect: {
+  type: ParticleEffect
+  length: 12
+  lifetime: 45
+  particles: 12
+  colorFrom: E1FF00
+  colorTo: FAF867
+  sizeFrom: 1.5
+  sizeTo: 0
+}
+drawer:{
+  type:DrawMulti
+  drawers:[
+    {
+      type:DrawRegion
+    }
+    {
+      type:DrawGlowRegion
+      suffix:-glow
+      color: 88c29a
+    }
+  ]
+}
+
+researchCostMultiplier: 0.03
+research: surge-smelter

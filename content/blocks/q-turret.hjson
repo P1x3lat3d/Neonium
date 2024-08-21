@@ -1,0 +1,43 @@
+type: ItemTurret
+targetAir: true
+targetGround: true
+health: 1500
+size: 3
+range: 120
+recoil: 2
+ammoUseEffect: casing3
+shootEffect: hitLancer
+shootSound: shoot
+shootCone: 25
+rotateSpeed: 4
+maxAmmo: 24
+ammoPerShot: 1
+ammoTypes: {
+  silicon: {
+    height: 20
+    width: 8
+    damage: 45
+    speed: 3
+    ammoMultiplier: 2
+    pierceDamageFactor: 0.25
+  }
+  quantan: {
+    height: 20
+    width: 8
+    damage: 65
+    speed: 4
+    ammoMultiplier: 3
+    pierceDamageFactor: 0.25
+  }
+}
+requirements: [
+  quantan/150
+  silicon/50
+]
+category: turret
+name: Quantturret
+shootY: 7
+research: fuse
+researchCostMultiplier: 0.03
+
+//my own sprite

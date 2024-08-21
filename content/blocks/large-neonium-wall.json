@@ -1,0 +1,12 @@
+{
+"name": "Large Neonium Wall",
+"description": "-",
+"type": "Wall",
+"health": 1780,
+"size": 2,
+"requirements": [
+{"item": "neonium", "amount": 25}
+],
+"category": "defense",
+"research": "neonium-wall"
+}
