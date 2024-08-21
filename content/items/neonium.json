@@ -1,0 +1,9 @@
+{
+"type": "material",
+"name": "Neonium",
+"description": "A very rare mineral",
+"hardness": 4,
+"cost": 2.0,
+"color": "E1FF00",
+"tier": 2
+}
